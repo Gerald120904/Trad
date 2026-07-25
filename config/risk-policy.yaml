@@ -1,0 +1,49 @@
+# RISK-POLICY.yaml
+# ESTE ARCHIVO ES INMUTABLE FUERA DE UNA TAREA DEDICADA Y DOCUMENTADA DE
+# "CAMBIO DE POLITICA DE RIESGO". El bot NUNCA debe editarlo por si mismo.
+# Ver AGENTS.md seccion 1.2 y docs/RISK_POLICY.md para el detalle completo.
+
+capital:
+  total_asignado_usd: 0.0        # 0 = solo simulacion. Se actualiza a mano
+                                   # solo tras aprobar LIVE_PROMOTION_CHECKLIST.md
+  riesgo_por_operacion_pct: 1.0   # % del capital total, nunca del capital+ganancias intradiarias
+  max_operaciones_simultaneas: 1
+
+limites_de_perdida:
+  perdida_maxima_diaria_pct: 3.0
+  perdida_maxima_semanal_pct: 6.0
+  perdida_maxima_total_pct: 15.0  # circuit breaker total: detener el bot y requerir revision manual completa
+
+circuit_breaker:
+  accion_al_activarse: "detener_bot_y_alertar"  # nunca "reducir_riesgo_y_continuar"
+  requiere_reset_manual: true
+
+ejecucion:
+  stop_loss_obligatorio: true
+  permite_mover_stop_en_contra: false   # el stop solo puede moverse a favor (menos riesgo), nunca en contra
+  mover_a_breakeven: true
+  breakeven_trigger_pct: 0.5
+
+filtros_exchange:
+  # Estos valores NO se hardcodean en el codigo: se consultan dinamicamente
+  # via exchangeInfo en cada arranque y se cachean con expiracion corta.
+  obligatorios:
+    - PRICE_FILTER
+    - LOT_SIZE
+    - MARKET_LOT_SIZE
+    - MIN_NOTIONAL
+    - NOTIONAL
+    - MAX_NUM_ORDERS
+    - MAX_NUM_ALGO_ORDERS
+  regla_si_no_alcanza_minimo: "rechazar_operacion"  # NUNCA "aumentar_riesgo_para_alcanzar_minimo"
+
+autonomia_prohibida:
+  - aumentar_capital_asignado
+  - cambiar_riesgo_por_operacion
+  - activar_pares_nuevos_no_aprobados
+  - pasar_de_simulacion_a_real
+  - retirar_fondos
+  - entrenar_y_sustituir_modelo_activo_sin_aprobacion
+  - modificar_stop_loss_obligatorio
+  - modificar_circuit_breaker
+  - desplegar_codigo_nuevo_sin_revision_humana

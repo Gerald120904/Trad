@@ -1,0 +1,37 @@
+# settings.example.yaml
+# Copiar a settings.yaml y ajustar. Este archivo controla PARAMETROS DE
+# ESTRATEGIA y ejecucion, NO limites de riesgo (eso vive en risk-policy.yaml
+# y no se toca desde aca).
+
+mercado:
+  exchange: "binance"
+  tipo: "spot"          # spot unicamente en esta version
+  par_principal: "BTCUSDT"
+  temporalidad_senal: "15m"
+  temporalidad_contexto: "1h"
+  direccion: "solo_compras"   # spot sin margen: solo long, salir a USDT
+
+modo:
+  activo: "testnet"     # testnet | demo | paper | live
+  # El cambio a "live" requiere seguir docs/LIVE_PROMOTION_CHECKLIST.md
+  # y no puede hacerse editando solo este campo — ver AGENTS.md seccion 1.1.
+
+datos:
+  fuente_historica: "binance_klines_y_aggtrades"
+  almacenamiento: "duckdb_parquet"
+  duckdb_path: "${DUCKDB_PATH}"
+  parquet_dir: "${PARQUET_DIR}"
+
+estrategias_activas:
+  - nombre: "volume_breakout_mvp"
+    habilitada: true
+    parametros:
+      lookback_velas_para_nivel: 50
+      umbral_volumen_relativo: 1.8   # multiplo del volumen promedio de 20 velas
+      atr_periodo: 14
+      atr_multiplo_stop: 1.5
+      relacion_beneficio_riesgo_minima: 1.5
+
+alertas:
+  telegram_habilitado: true
+  reporte_semanal_habilitado: true
