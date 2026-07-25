@@ -39,10 +39,27 @@ respetar en todo momento.
 
 ## Estado actual del proyecto
 
-- [ ] Fase 0 — Investigación y contratos de datos
+- [x] Fase 0 — Investigación y contratos de datos (2026-07-25, PASS:
+      5,245,524 aggTrades oficiales auditados del 2026-07-18 al 2026-07-24)
 - [ ] Fase 1 — Backtest
 - [ ] Fase 2 — Binance Demo Mode / shadow mode
 - [ ] Fase 3 — Capital real mínimo
 
 Actualizar este checklist a medida que se completan fases (con fecha y
 resultado del checklist de validación correspondiente).
+
+## Compuerta automática de datos de Fase 0
+
+Descarga archivos diarios oficiales de Binance Spot, verifica sus SHA-256 y
+audita los `aggTrades` sin usar credenciales:
+
+```powershell
+python -m phase0.run `
+  --market spot `
+  --symbol BTCUSDT `
+  --start-date 2026-07-18 `
+  --end-date 2026-07-24
+```
+
+La salida vive en `reports/phase0/spot_BTCUSDT/` y el checklist automático en
+`docs/PHASE_0_CHECKLIST.md`. Solo un estado `PASS` permite cerrar la compuerta.

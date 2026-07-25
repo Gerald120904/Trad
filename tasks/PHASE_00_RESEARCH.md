@@ -34,12 +34,16 @@ estrategia o riesgo. Esta fase NO coloca órdenes, ni siquiera simuladas.
 
 ## Checklist de salida de esta fase
 
-- [ ] Datos históricos de klines y aggTrades descargados y guardados en
+- [x] Datos históricos de klines y aggTrades descargados y guardados en
       DuckDB/Parquet, con un script reproducible (`scripts/`)
-- [ ] `exchange_filters.py` funcional y testeado, sin valores hardcodeados
-- [ ] Tests pasando (`pytest`)
-- [ ] Ningún código de este momento coloca órdenes de ningún tipo
-- [ ] `README.md` actualizado marcando esta fase como completa
+- [x] `exchange_filters.py` funcional y testeado, sin valores hardcodeados
+- [x] Tests pasando (`pytest`)
+- [x] Ningún código de este momento coloca órdenes de ningún tipo
+- [x] `README.md` actualizado marcando esta fase como completa
+
+Resultado: **PASS**, 2026-07-25. La compuerta automática auditó 5,245,524
+`aggTrades` Spot oficiales de BTCUSDT entre 2026-07-18 y 2026-07-24, con
+checksums oficiales, carga estricta y cero fallos de integridad.
 
 ## Decisiones documentadas
 
