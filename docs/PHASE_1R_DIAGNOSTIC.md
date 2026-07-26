@@ -1,6 +1,6 @@
 # Fase 1R - Diagnóstico de la hipótesis rechazada
 
-Fecha: 2026-07-25  
+Fecha: 2026-07-25
 Referencia congelada: tag `phase1-rejected-v1`
 
 ## Resultado preservado
