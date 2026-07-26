@@ -1,0 +1,1173 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-07-26T02:32:39.314756+00:00",
+  "status": "FAIL",
+  "market": "spot",
+  "symbol": "BTCUSDT",
+  "start_date": "2026-01-26",
+  "end_date": "2026-07-24",
+  "total_rows": 199487794,
+  "tests": [
+    {
+      "name": "daily_file_coverage",
+      "passed": true,
+      "observed": 180,
+      "expected": 180
+    },
+    {
+      "name": "ingest_errors",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "nonempty_dataset",
+      "passed": true,
+      "observed": 199487794,
+      "expected": ">0"
+    },
+    {
+      "name": "invalid_ids",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "duplicate_ids",
+      "passed": false,
+      "observed": 3000,
+      "expected": 0
+    },
+    {
+      "name": "duplicate_rows",
+      "passed": false,
+      "observed": 3000,
+      "expected": 0
+    },
+    {
+      "name": "agg_id_discontinuities",
+      "passed": false,
+      "observed": 2,
+      "expected": 0
+    },
+    {
+      "name": "underlying_id_discontinuities",
+      "passed": false,
+      "observed": 2,
+      "expected": 0
+    },
+    {
+      "name": "timestamp_regressions",
+      "passed": false,
+      "observed": 2,
+      "expected": 0
+    },
+    {
+      "name": "invalid_prices_or_quantities",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "timestamp_date_mismatch",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "missing_ingested_days",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "required_views",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    }
+  ],
+  "file_checks": [
+    {
+      "date": "2026-01-26",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-01-26.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-01-27",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-01-27.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-01-28",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-01-28.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-01-29",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-01-29.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-01-30",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-01-30.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-01-31",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-01-31.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-01",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-01.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-02",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-02.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-03",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-03.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-04",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-04.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-05",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-05.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-06",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-06.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-07",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-07.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-08",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-08.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-09",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-09.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-10",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-10.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-11",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-11.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-12",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-12.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-13",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-13.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-14",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-14.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-15",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-15.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-16",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-16.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-17",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-17.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-18",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-18.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-19",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-19.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-20",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-20.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-21",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-21.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-22",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-22.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-23",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-23.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-24",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-24.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-25",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-25.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-26",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-26.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-27",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-27.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-02-28",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-02-28.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-01",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-01.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-02",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-02.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-03",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-03.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-04",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-04.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-05",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-05.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-06",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-06.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-07",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-07.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-08",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-08.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-09",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-09.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-10",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-10.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-11",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-11.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-12",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-12.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-13",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-13.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-14",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-14.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-15",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-15.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-16",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-16.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-17",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-17.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-18",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-18.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-19",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-19.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-20",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-20.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-21",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-21.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-22",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-22.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-23",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-23.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-24",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-24.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-25",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-25.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-26",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-26.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-27",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-27.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-28",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-28.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-29",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-29.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-30",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-30.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-03-31",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-03-31.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-01",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-01.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-02",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-02.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-03",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-03.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-04",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-04.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-05",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-05.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-06",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-06.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-07",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-07.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-08",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-08.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-09",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-09.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-10",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-10.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-11",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-11.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-12",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-12.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-13",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-13.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-14",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-14.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-15",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-15.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-16",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-16.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-17",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-17.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-18",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-18.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-19",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-19.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-20",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-20.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-21",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-21.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-22",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-22.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-23",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-23.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-24",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-24.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-25",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-25.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-26",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-26.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-27",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-27.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-28",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-28.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-29",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-29.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-04-30",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-04-30.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-01",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-01.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-02",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-02.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-03",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-03.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-04",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-04.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-05",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-05.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-06",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-06.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-07",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-07.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-08",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-08.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-09",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-09.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-10",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-10.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-11",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-11.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-12",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-12.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-13",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-13.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-14",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-14.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-15",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-15.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-16",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-16.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-17",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-17.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-18",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-18.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-19",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-19.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-20",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-20.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-21",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-21.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-22",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-22.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-23",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-23.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-24",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-24.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-25",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-25.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-26",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-26.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-27",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-27.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-28",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-28.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-29",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-29.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-30",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-30.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-05-31",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-05-31.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-01",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-01.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-02",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-02.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-03",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-03.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-04",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-04.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-05",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-05.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-06",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-06.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-07",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-07.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-08",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-08.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-09",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-09.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-10",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-10.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-11",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-11.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-12",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-12.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-13",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-13.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-14",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-14.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-15",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-15.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-16",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-16.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-17",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-17.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-18",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-18.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-19",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-19.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-20",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-20.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-21",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-21.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-22",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-22.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-23",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-23.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-24",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-24.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-25",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-25.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-26",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-26.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-27",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-27.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-28",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-28.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-29",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-29.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-06-30",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-06-30.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-01",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-01.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-02",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-02.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-03",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-03.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-04",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-04.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-05",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-05.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-06",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-06.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-07",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-07.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-08",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-08.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-09",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-09.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-10",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-10.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-11",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-11.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-12",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-12.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-13",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-13.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-14",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-14.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-15",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-15.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-16",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-16.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-17",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-17.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-18",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-18.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-19",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-19.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-20",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-20.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-21",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-21.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-22",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-22.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-23",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-23.zip",
+      "ok": true,
+      "error": null
+    },
+    {
+      "date": "2026-07-24",
+      "archive": "C:\\Users\\geral\\Downloads\\trading-system\\trading-system\\data\\raw\\spot\\BTCUSDT\\BTCUSDT-aggTrades-2026-07-24.zip",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "ingest_errors": []
+}
