@@ -1,0 +1,503 @@
+{
+  "acceptance_thresholds": {
+    "max_drawdown": 0.2,
+    "max_profit_concentration": 0.6,
+    "max_regime_loss_fraction": 0.08,
+    "min_positive_windows": 3,
+    "min_profit_factor": 1.15,
+    "min_stress_profit_factor": 1.0,
+    "min_total_trades": 100,
+    "walk_forward_windows": 5
+  },
+  "costs_and_risk": {
+    "allow_short": false,
+    "fee_rate": 0.001,
+    "max_leverage": 1.0,
+    "max_position_fraction": 0.25,
+    "risk_per_trade": 0.005,
+    "slippage_bps": 2.0,
+    "starting_capital": 1000.0,
+    "stress_slippage_bps": 4.0
+  },
+  "decision": {
+    "catastrophic_regimes": [],
+    "criteria": [
+      {
+        "name": "complete_market_cost_model",
+        "observed": "spot",
+        "passed": true,
+        "required": "spot; futures requiere funding/liquidación/contrato"
+      },
+      {
+        "name": "five_walk_forward_windows",
+        "observed": 5,
+        "passed": true,
+        "required": 5
+      },
+      {
+        "name": "minimum_oos_trades",
+        "observed": 4,
+        "passed": false,
+        "required": ">= 100"
+      },
+      {
+        "name": "positive_oos_return",
+        "observed": -0.003980409806108696,
+        "passed": false,
+        "required": "> 0"
+      },
+      {
+        "name": "oos_profit_factor",
+        "observed": 0.0,
+        "passed": false,
+        "required": ">= 1.15"
+      },
+      {
+        "name": "maximum_drawdown",
+        "observed": 0.003998899239933906,
+        "passed": true,
+        "required": "<= 0.2"
+      },
+      {
+        "name": "positive_windows",
+        "observed": 0,
+        "passed": false,
+        "required": ">= 3"
+      },
+      {
+        "name": "profit_concentration",
+        "observed": 1.0,
+        "passed": false,
+        "required": "<= 0.6"
+      },
+      {
+        "name": "double_slippage_positive",
+        "observed": -0.0041788858550504526,
+        "passed": false,
+        "required": "> 0"
+      },
+      {
+        "name": "double_slippage_profit_factor",
+        "observed": 0.0,
+        "passed": false,
+        "required": ">= 1.0"
+      },
+      {
+        "name": "mandatory_stops",
+        "observed": 1.0,
+        "passed": true,
+        "required": 1.0
+      },
+      {
+        "name": "risk_engine_violations",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      },
+      {
+        "name": "no_catastrophic_regime",
+        "observed": 0,
+        "passed": true,
+        "required": 0
+      }
+    ],
+    "positive_windows": 0,
+    "profit_concentration": 1.0,
+    "regimes": [
+      {
+        "net_pnl": -0.9892305006850063,
+        "profit_factor": 0.0,
+        "regime": "bear_low_vol",
+        "trade_count": 1,
+        "win_rate": 0.0
+      },
+      {
+        "net_pnl": -2.089869482464315,
+        "profit_factor": 0.0,
+        "regime": "bull_high_vol",
+        "trade_count": 2,
+        "win_rate": 0.0
+      },
+      {
+        "net_pnl": -0.9013098229594607,
+        "profit_factor": 0.0,
+        "regime": "sideways_low_vol",
+        "trade_count": 1,
+        "win_rate": 0.0
+      }
+    ],
+    "status": "REJECTED"
+  },
+  "gate": "PHASE_1",
+  "generated_at_utc": "2026-07-25T23:34:47.841940+00:00",
+  "market": "spot",
+  "model_scope": {
+    "entry_timing": "next_bar_open",
+    "futures_limit": "Research only: historical funding, liquidation and contract rules are not implemented; futures cannot pass this gate.",
+    "intrabar_ambiguity": "stop_first",
+    "positions": "one_at_a_time",
+    "strategy": "volume_breakout_mvp"
+  },
+  "oos_metrics": {
+    "equity_sharpe": -2.4735028118743547,
+    "expectancy": -0.9951024515271955,
+    "final_equity": 996.0195901938913,
+    "gross_loss": 3.980409806108782,
+    "gross_profit": 0.0,
+    "max_drawdown": 0.003998899239933906,
+    "net_profit": -3.980409806108696,
+    "net_return": -0.003980409806108696,
+    "profit_factor": 0.0,
+    "starting_capital": 1000.0,
+    "stop_coverage": 1.0,
+    "trade_count": 4,
+    "win_rate": 0.0
+  },
+  "period": {
+    "bar_count": 2016,
+    "bar_interval": "5m",
+    "end_date": "2026-07-24",
+    "start_date": "2026-07-18",
+    "synthetic_empty_bars": 0
+  },
+  "schema_version": 1,
+  "status": "REJECTED",
+  "stress_metrics": {
+    "equity_sharpe": -2.499122041187534,
+    "expectancy": -1.0447214637625928,
+    "final_equity": 995.8211141449495,
+    "gross_loss": 4.178885855050371,
+    "gross_profit": 0.0,
+    "max_drawdown": 0.00417888585505044,
+    "net_profit": -4.178885855050453,
+    "net_return": -0.0041788858550504526,
+    "profit_factor": 0.0,
+    "starting_capital": 1000.0,
+    "stop_coverage": 1.0,
+    "trade_count": 4,
+    "win_rate": 0.0
+  },
+  "symbol": "BTCUSDT",
+  "walk_forward_windows": [
+    {
+      "oos_metrics": {
+        "equity_sharpe": -1.0400587823985425,
+        "expectancy": -1.1632741519844545,
+        "final_equity": 998.8367258480156,
+        "gross_loss": 1.1632741519844545,
+        "gross_profit": 0.0,
+        "max_drawdown": 0.0011818158812099133,
+        "net_profit": -1.1632741519844103,
+        "net_return": -0.0011632741519844102,
+        "profit_factor": 0.0,
+        "starting_capital": 1000.0,
+        "stop_coverage": 1.0,
+        "trade_count": 1,
+        "win_rate": 0.0
+      },
+      "selected_params": {
+        "atr_period": 14,
+        "atr_stop_multiple": 1.5,
+        "breakout_buffer_bps": 0.0,
+        "delta_ratio_threshold": 0.1,
+        "level_lookback": 40,
+        "max_hold_bars": 48,
+        "rel_volume_threshold": 2.0,
+        "reward_to_risk": 2.0,
+        "volume_lookback": 40
+      },
+      "stress_metrics": {
+        "equity_sharpe": -1.0656989046252046,
+        "expectancy": -1.2129788713601544,
+        "final_equity": 998.7870211286398,
+        "gross_loss": 1.2129788713601544,
+        "gross_profit": 0.0,
+        "max_drawdown": 0.001212978871360182,
+        "net_profit": -1.2129788713601783,
+        "net_return": -0.0012129788713601784,
+        "profit_factor": 0.0,
+        "starting_capital": 1000.0,
+        "stop_coverage": 1.0,
+        "trade_count": 1,
+        "win_rate": 0.0
+      },
+      "test_end": "2026-07-22 04:40:00+00:00",
+      "test_start": "2026-07-21 12:00:00+00:00",
+      "train_end": "2026-07-21 11:55:00+00:00",
+      "train_start": "2026-07-18 00:00:00+00:00",
+      "training_metrics": {
+        "equity_sharpe": -1.6851171930084075,
+        "expectancy": -0.44920930047589336,
+        "final_equity": 995.058697694765,
+        "gross_loss": 6.694160409101187,
+        "gross_profit": 1.7528581038663593,
+        "max_drawdown": 0.005551933241817908,
+        "net_profit": -4.941302305235013,
+        "net_return": -0.0049413023052350125,
+        "profit_factor": 0.26184883491635846,
+        "starting_capital": 1000.0,
+        "stop_coverage": 1.0,
+        "trade_count": 11,
+        "win_rate": 0.18181818181818182
+      },
+      "training_score": -0.007922225469634704,
+      "window": 1
+    },
+    {
+      "oos_metrics": {
+        "equity_sharpe": 0.0,
+        "expectancy": 0.0,
+        "final_equity": 998.8367258480156,
+        "gross_loss": 0.0,
+        "gross_profit": 0.0,
+        "max_drawdown": 0.0,
+        "net_profit": 0.0,
+        "net_return": 0.0,
+        "profit_factor": 0.0,
+        "starting_capital": 998.8367258480156,
+        "stop_coverage": 1.0,
+        "trade_count": 0,
+        "win_rate": 0.0
+      },
+      "selected_params": {
+        "atr_period": 14,
+        "atr_stop_multiple": 1.5,
+        "breakout_buffer_bps": 0.0,
+        "delta_ratio_threshold": 0.1,
+        "level_lookback": 40,
+        "max_hold_bars": 48,
+        "rel_volume_threshold": 2.0,
+        "reward_to_risk": 2.0,
+        "volume_lookback": 40
+      },
+      "stress_metrics": {
+        "equity_sharpe": 0.0,
+        "expectancy": 0.0,
+        "final_equity": 998.7870211286398,
+        "gross_loss": 0.0,
+        "gross_profit": 0.0,
+        "max_drawdown": 0.0,
+        "net_profit": 0.0,
+        "net_return": 0.0,
+        "profit_factor": 0.0,
+        "starting_capital": 998.7870211286398,
+        "stop_coverage": 1.0,
+        "trade_count": 0,
+        "win_rate": 0.0
+      },
+      "test_end": "2026-07-22 21:25:00+00:00",
+      "test_start": "2026-07-22 04:45:00+00:00",
+      "train_end": "2026-07-22 04:40:00+00:00",
+      "train_start": "2026-07-18 00:00:00+00:00",
+      "training_metrics": {
+        "equity_sharpe": -1.9449228710714757,
+        "expectancy": -0.5082356973308717,
+        "final_equity": 993.9011716320293,
+        "gross_loss": 7.85168647183682,
+        "gross_profit": 1.7528581038663593,
+        "max_drawdown": 0.00609882836797071,
+        "net_profit": -6.098828367970668,
+        "net_return": -0.006098828367970668,
+        "profit_factor": 0.22324606441605613,
+        "starting_capital": 1000.0,
+        "stop_coverage": 1.0,
+        "trade_count": 12,
+        "win_rate": 0.16666666666666666
+      },
+      "training_score": -0.01066214963160561,
+      "window": 2
+    },
+    {
+      "oos_metrics": {
+        "equity_sharpe": -1.314507571580995,
+        "expectancy": -0.9013098229594607,
+        "final_equity": 997.9354160250562,
+        "gross_loss": 0.9013098229594607,
+        "gross_profit": 0.0,
+        "max_drawdown": 0.000902359514458384,
+        "net_profit": -0.9013098229594334,
+        "net_return": -0.0009023595144584001,
+        "profit_factor": 0.0,
+        "starting_capital": 998.8367258480156,
+        "stop_coverage": 1.0,
+        "trade_count": 1,
+        "win_rate": 0.0
+      },
+      "selected_params": {
+        "atr_period": 14,
+        "atr_stop_multiple": 1.5,
+        "breakout_buffer_bps": 0.0,
+        "delta_ratio_threshold": 0.1,
+        "level_lookback": 40,
+        "max_hold_bars": 48,
+        "rel_volume_threshold": 2.0,
+        "reward_to_risk": 2.0,
+        "volume_lookback": 40
+      },
+      "stress_metrics": {
+        "equity_sharpe": -1.3019134124834368,
+        "expectancy": -0.9510136184603848,
+        "final_equity": 997.8360075101795,
+        "gross_loss": 0.9510136184603848,
+        "gross_profit": 0.0,
+        "max_drawdown": 0.0009521685788284051,
+        "net_profit": -0.9510136184603653,
+        "net_return": -0.0009521685788284573,
+        "profit_factor": 0.0,
+        "starting_capital": 998.7870211286398,
+        "stop_coverage": 1.0,
+        "trade_count": 1,
+        "win_rate": 0.0
+      },
+      "test_end": "2026-07-23 14:10:00+00:00",
+      "test_start": "2026-07-22 21:30:00+00:00",
+      "train_end": "2026-07-22 21:25:00+00:00",
+      "train_start": "2026-07-18 00:00:00+00:00",
+      "training_metrics": {
+        "equity_sharpe": -1.9444886110870456,
+        "expectancy": -0.5082356973308717,
+        "final_equity": 993.9011716320293,
+        "gross_loss": 7.85168647183682,
+        "gross_profit": 1.7528581038663593,
+        "max_drawdown": 0.00609882836797071,
+        "net_profit": -6.098828367970668,
+        "net_return": -0.006098828367970668,
+        "profit_factor": 0.22324606441605613,
+        "starting_capital": 1000.0,
+        "stop_coverage": 1.0,
+        "trade_count": 12,
+        "win_rate": 0.16666666666666666
+      },
+      "training_score": -0.01066214963160561,
+      "window": 3
+    },
+    {
+      "oos_metrics": {
+        "equity_sharpe": -1.4886588278601827,
+        "expectancy": -0.9892305006850063,
+        "final_equity": 996.9461855243711,
+        "gross_loss": 0.9892305006850063,
+        "gross_profit": 0.0,
+        "max_drawdown": 0.0009912770754497702,
+        "net_profit": -0.9892305006850393,
+        "net_return": -0.000991277075449742,
+        "profit_factor": 0.0,
+        "starting_capital": 997.9354160250562,
+        "stop_coverage": 1.0,
+        "trade_count": 1,
+        "win_rate": 0.0
+      },
+      "selected_params": {
+        "atr_period": 14,
+        "atr_stop_multiple": 1.5,
+        "breakout_buffer_bps": 0.0,
+        "delta_ratio_threshold": 0.1,
+        "level_lookback": 20,
+        "max_hold_bars": 48,
+        "rel_volume_threshold": 2.0,
+        "reward_to_risk": 2.0,
+        "volume_lookback": 40
+      },
+      "stress_metrics": {
+        "equity_sharpe": -1.4815049949928014,
+        "expectancy": -1.038797754268081,
+        "final_equity": 996.7972097559114,
+        "gross_loss": 1.038797754268081,
+        "gross_profit": 0.0,
+        "max_drawdown": 0.0010410505799045566,
+        "net_profit": -1.0387977542681028,
+        "net_return": -0.0010410505799045395,
+        "profit_factor": 0.0,
+        "starting_capital": 997.8360075101795,
+        "stop_coverage": 1.0,
+        "trade_count": 1,
+        "win_rate": 0.0
+      },
+      "test_end": "2026-07-24 06:55:00+00:00",
+      "test_start": "2026-07-23 14:15:00+00:00",
+      "train_end": "2026-07-23 14:10:00+00:00",
+      "train_start": "2026-07-18 00:00:00+00:00",
+      "training_metrics": {
+        "equity_sharpe": -1.8654222780979306,
+        "expectancy": -0.4623329213148584,
+        "final_equity": 993.9896720229067,
+        "gross_loss": 7.858458994378845,
+        "gross_profit": 1.8481310172856857,
+        "max_drawdown": 0.0063146721570737085,
+        "net_profit": -6.010327977093311,
+        "net_return": -0.006010327977093311,
+        "profit_factor": 0.23517728076301647,
+        "starting_capital": 1000.0,
+        "stop_coverage": 1.0,
+        "trade_count": 13,
+        "win_rate": 0.23076923076923078
+      },
+      "training_score": -0.010648790597443546,
+      "window": 4
+    },
+    {
+      "oos_metrics": {
+        "equity_sharpe": -1.421218563469235,
+        "expectancy": -0.9265953304798602,
+        "final_equity": 996.0195901938913,
+        "gross_loss": 0.9265953304798602,
+        "gross_profit": 0.0,
+        "max_drawdown": 0.0009294336484094723,
+        "net_profit": -0.9265953304798131,
+        "net_return": -0.0009294336484094625,
+        "profit_factor": 0.0,
+        "starting_capital": 996.9461855243711,
+        "stop_coverage": 1.0,
+        "trade_count": 1,
+        "win_rate": 0.0
+      },
+      "selected_params": {
+        "atr_period": 14,
+        "atr_stop_multiple": 1.5,
+        "breakout_buffer_bps": 0.0,
+        "delta_ratio_threshold": 0.1,
+        "level_lookback": 20,
+        "max_hold_bars": 48,
+        "rel_volume_threshold": 2.0,
+        "reward_to_risk": 2.0,
+        "volume_lookback": 40
+      },
+      "stress_metrics": {
+        "equity_sharpe": -1.4190492022837407,
+        "expectancy": -0.9760956109617513,
+        "final_equity": 995.8211141449495,
+        "gross_loss": 0.9760956109617513,
+        "gross_profit": 0.0,
+        "max_drawdown": 0.000979231885290699,
+        "net_profit": -0.9760956109618064,
+        "net_return": -0.000979231885290716,
+        "profit_factor": 0.0,
+        "starting_capital": 996.7972097559114,
+        "stop_coverage": 1.0,
+        "trade_count": 1,
+        "win_rate": 0.0
+      },
+      "test_end": "2026-07-24 23:55:00+00:00",
+      "test_start": "2026-07-24 07:00:00+00:00",
+      "train_end": "2026-07-24 06:55:00+00:00",
+      "train_start": "2026-07-18 00:00:00+00:00",
+      "training_metrics": {
+        "equity_sharpe": -2.127682153242947,
+        "expectancy": -0.49968908230023157,
+        "final_equity": 993.0043528477966,
+        "gross_loss": 8.843778169488926,
+        "gross_profit": 1.8481310172856857,
+        "max_drawdown": 0.006995647152203466,
+        "net_profit": -6.995647152203446,
+        "net_return": -0.006995647152203446,
+        "profit_factor": 0.2089752797805067,
+        "starting_capital": 1000.0,
+        "stop_coverage": 1.0,
+        "trade_count": 14,
+        "win_rate": 0.21428571428571427
+      },
+      "training_score": -0.01316961228489851,
+      "window": 5
+    }
+  ]
+}
