@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "classification": "INTRA_FILE_DUPLICATION",
+  "candidate_dates": [
+    "2026-02-11"
+  ],
+  "duplicated_ids": 2000,
+  "duplicate_excess_rows": 3000,
+  "first_duplicate_id": 3856672511,
+  "last_duplicate_id": 3856674510,
+  "conflicting_duplicate_ids": 0,
+  "duplicate_rows_parquet": "reports\\phase0\\spot_BTCUSDT\\duplicate_rows.parquet",
+  "files": [
+    {
+      "source_date": "2026-02-11",
+      "source_file": "BTCUSDT-aggTrades-2026-02-11.zip",
+      "sha256": "e546aac09d5cf0c26f1f7b82d38460564596800491752dfa9cb3b5bb34a96ed9",
+      "raw_rows": 2102072,
+      "loaded_rows": 2102072,
+      "distinct_source_rows": 2102072,
+      "distinct_agg_trade_ids": 2099072,
+      "source_anomalies": [
+        {
+          "current_id": 3856672511,
+          "current_timestamp_ms": 1770768000008,
+          "estimated_overlap": 2000,
+          "id_step": -1999,
+          "previous_id": 3856674510,
+          "previous_timestamp_ms": 1770768242437,
+          "source_row": 2001,
+          "time_regression": true
+        },
+        {
+          "current_id": 3856672511,
+          "current_timestamp_ms": 1770768000008,
+          "estimated_overlap": 1000,
+          "id_step": -999,
+          "previous_id": 3856673510,
+          "previous_timestamp_ms": 1770768136603,
+          "source_row": 3001,
+          "time_regression": true
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The current DuckDB schema lacks source_file; it is inferred from source_date.",
+    "No data was deleted or normalized by this diagnostic."
+  ]
+}

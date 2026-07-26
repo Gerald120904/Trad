@@ -1,0 +1,1828 @@
+{
+  "archive_count": 180,
+  "complete": true,
+  "files": [
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-01-26.zip",
+      "first_id": 3822538182,
+      "first_timestamp_ms": 1769385600001,
+      "last_id": 3823619777,
+      "last_timestamp_ms": 1769471998743,
+      "raw_rows": 1081596,
+      "sha256": "f0017a71e44a4970cfda959fc47a1b994bec343f8b52554319b4784271ed6f5b"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-01-27.zip",
+      "first_id": 3823619778,
+      "first_timestamp_ms": 1769472000010,
+      "last_id": 3824536858,
+      "last_timestamp_ms": 1769558399914,
+      "raw_rows": 917081,
+      "sha256": "84e938ad48ecfc5580472bfada7de28b5a8467a00d838495c50e65a6f727085b"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-01-28.zip",
+      "first_id": 3824536859,
+      "first_timestamp_ms": 1769558400001,
+      "last_id": 3825571927,
+      "last_timestamp_ms": 1769644799600,
+      "raw_rows": 1035069,
+      "sha256": "172b1e74a7e64e2aa71b455a07a03456ff9f13f6098150ecbea71670682094eb"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-01-29.zip",
+      "first_id": 3825571928,
+      "first_timestamp_ms": 1769644800165,
+      "last_id": 3826962706,
+      "last_timestamp_ms": 1769731199983,
+      "raw_rows": 1390779,
+      "sha256": "12e377188558846f6b97bf2cf00f0e8847bee587e8ff800c52ee37cb06c19c80"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-01-30.zip",
+      "first_id": 3826962707,
+      "first_timestamp_ms": 1769731200023,
+      "last_id": 3828942114,
+      "last_timestamp_ms": 1769817599778,
+      "raw_rows": 1979408,
+      "sha256": "9bc2455d0f015b5289abcd072bf81b4b31bd110704babec8ac10975040a3f287"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-01-31.zip",
+      "first_id": 3828942115,
+      "first_timestamp_ms": 1769817600002,
+      "last_id": 3831110185,
+      "last_timestamp_ms": 1769903999765,
+      "raw_rows": 2168071,
+      "sha256": "3dd5f8caad99344f508bdfc202d18dd47aad6d360c1ca521033c7180c493c2ee"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-01.zip",
+      "first_id": 3831110186,
+      "first_timestamp_ms": 1769904000006,
+      "last_id": 3832984448,
+      "last_timestamp_ms": 1769990399755,
+      "raw_rows": 1874263,
+      "sha256": "c452fc735ce5473b101d154862f90460ebbb8d9371cada85b06a11ef68895896"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-02.zip",
+      "first_id": 3832984449,
+      "first_timestamp_ms": 1769990400012,
+      "last_id": 3835562654,
+      "last_timestamp_ms": 1770076799578,
+      "raw_rows": 2578206,
+      "sha256": "b24c5a5813ad47f586233f18de4dadbdabaf0a5e091456c685185f1f2f19e4e9"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-03.zip",
+      "first_id": 3835562655,
+      "first_timestamp_ms": 1770076800005,
+      "last_id": 3837822068,
+      "last_timestamp_ms": 1770163199825,
+      "raw_rows": 2259414,
+      "sha256": "5af89f475ec381641fe01f0c263af96c487d34d51201c80d6746b35e3b62f96e"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-04.zip",
+      "first_id": 3837822069,
+      "first_timestamp_ms": 1770163200005,
+      "last_id": 3840116486,
+      "last_timestamp_ms": 1770249599913,
+      "raw_rows": 2294418,
+      "sha256": "755d283eccde4b390a5e1b07b4d013a923972eb15221442ffcde6c952ae3c5a1"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-05.zip",
+      "first_id": 3840116487,
+      "first_timestamp_ms": 1770249600128,
+      "last_id": 3844785252,
+      "last_timestamp_ms": 1770335999894,
+      "raw_rows": 4668766,
+      "sha256": "3c82f30f32c5487a5398e51b574cd6b1ad618ff723488fc1c9631f6f3a1b8217"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-06.zip",
+      "first_id": 3844785253,
+      "first_timestamp_ms": 1770336000073,
+      "last_id": 3849327482,
+      "last_timestamp_ms": 1770422399971,
+      "raw_rows": 4542230,
+      "sha256": "d2e8e35fd7fbeb15587dcdd5aaa939ea162921b9d8981863f483f3fa7e1f2f5f"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-07.zip",
+      "first_id": 3849327483,
+      "first_timestamp_ms": 1770422400004,
+      "last_id": 3851797060,
+      "last_timestamp_ms": 1770508799721,
+      "raw_rows": 2469578,
+      "sha256": "0701a32980c3219bd7021a3d19a88228543ead129aab51f6d34a5cdbf0f17b05"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-08.zip",
+      "first_id": 3851797061,
+      "first_timestamp_ms": 1770508800003,
+      "last_id": 3853252549,
+      "last_timestamp_ms": 1770595199710,
+      "raw_rows": 1455489,
+      "sha256": "8530aa67bd5e6fdefd8b5b56114f58f53a70995c3037953113e5b419ccd876bd"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-09.zip",
+      "first_id": 3853252550,
+      "first_timestamp_ms": 1770595200002,
+      "last_id": 3855286220,
+      "last_timestamp_ms": 1770681598096,
+      "raw_rows": 2033671,
+      "sha256": "e0db537423ea145c1df74c7046b5968964509061a666966c266e8997ac88bc6d"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-10.zip",
+      "first_id": 3855286221,
+      "first_timestamp_ms": 1770681600109,
+      "last_id": 3856672510,
+      "last_timestamp_ms": 1770767999209,
+      "raw_rows": 1386290,
+      "sha256": "d7caea9cb96fcb168273a349fccd3722388c25c50f465aff32ed6df37cba8296"
+    },
+    {
+      "anomalies": [
+        {
+          "current_id": 3856672511,
+          "current_timestamp_ms": 1770768000008,
+          "estimated_overlap": 2000,
+          "id_step": -1999,
+          "previous_id": 3856674510,
+          "previous_timestamp_ms": 1770768242437,
+          "source_row": 2001,
+          "time_regression": true
+        },
+        {
+          "current_id": 3856672511,
+          "current_timestamp_ms": 1770768000008,
+          "estimated_overlap": 1000,
+          "id_step": -999,
+          "previous_id": 3856673510,
+          "previous_timestamp_ms": 1770768136603,
+          "source_row": 3001,
+          "time_regression": true
+        }
+      ],
+      "file": "BTCUSDT-aggTrades-2026-02-11.zip",
+      "first_id": 3856672511,
+      "first_timestamp_ms": 1770768000008,
+      "last_id": 3858771582,
+      "last_timestamp_ms": 1770854399842,
+      "raw_rows": 2102072,
+      "sha256": "e546aac09d5cf0c26f1f7b82d38460564596800491752dfa9cb3b5bb34a96ed9"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-12.zip",
+      "first_id": 3858771583,
+      "first_timestamp_ms": 1770854400009,
+      "last_id": 3860631036,
+      "last_timestamp_ms": 1770940798841,
+      "raw_rows": 1859454,
+      "sha256": "e600e1a9d9fb58ac2c3827e85ae24c5f82674157537aa8ff631eb597b149164e"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-13.zip",
+      "first_id": 3860631037,
+      "first_timestamp_ms": 1770940800198,
+      "last_id": 3862233191,
+      "last_timestamp_ms": 1771027199897,
+      "raw_rows": 1602155,
+      "sha256": "3d807ef8f4c5bb2a7b1307fa8fa916708b8dedfa2a60660e84257c506815fb95"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-14.zip",
+      "first_id": 3862233192,
+      "first_timestamp_ms": 1771027200009,
+      "last_id": 3863237258,
+      "last_timestamp_ms": 1771113599826,
+      "raw_rows": 1004067,
+      "sha256": "787010953f49ea6bda2ce7410520df2d3a192d4d6483927ada305745f5751e99"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-15.zip",
+      "first_id": 3863237259,
+      "first_timestamp_ms": 1771113600003,
+      "last_id": 3864497176,
+      "last_timestamp_ms": 1771199999467,
+      "raw_rows": 1259918,
+      "sha256": "da70c960f6d9aed90d4c31b5c52e91a414cdc28ec7dac418aae816a4fb53a986"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-16.zip",
+      "first_id": 3864497177,
+      "first_timestamp_ms": 1771200000071,
+      "last_id": 3865787506,
+      "last_timestamp_ms": 1771286398815,
+      "raw_rows": 1290330,
+      "sha256": "585f216a11d482d33c12ab67af650b74e2c824c6833cf521a64f4f652181ebb9"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-17.zip",
+      "first_id": 3865787507,
+      "first_timestamp_ms": 1771286400007,
+      "last_id": 3867140885,
+      "last_timestamp_ms": 1771372799821,
+      "raw_rows": 1353379,
+      "sha256": "0b869cc8062e92c4fa1dcba7d87979d325651a0a93a186e264645ef8e5c4299f"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-18.zip",
+      "first_id": 3867140886,
+      "first_timestamp_ms": 1771372800005,
+      "last_id": 3868423387,
+      "last_timestamp_ms": 1771459199323,
+      "raw_rows": 1282502,
+      "sha256": "32b6cd57649bd8cfa459c0ccb47753580cc7a183be6275b2c3ee724a9c140fd1"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-19.zip",
+      "first_id": 3868423388,
+      "first_timestamp_ms": 1771459200146,
+      "last_id": 3869764619,
+      "last_timestamp_ms": 1771545599978,
+      "raw_rows": 1341232,
+      "sha256": "861f7d6c5f0847c7129ca7e1d5b3b85bd0ec01b9b43369b749c680cccd9ee9a2"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-20.zip",
+      "first_id": 3869764620,
+      "first_timestamp_ms": 1771545600141,
+      "last_id": 3871388311,
+      "last_timestamp_ms": 1771631999617,
+      "raw_rows": 1623692,
+      "sha256": "a129cdf11086f6a8852493b2ed9ee04e2046d65a65e8ae84ddfb3da8f5669f66"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-21.zip",
+      "first_id": 3871388312,
+      "first_timestamp_ms": 1771632000010,
+      "last_id": 3872016816,
+      "last_timestamp_ms": 1771718399781,
+      "raw_rows": 628505,
+      "sha256": "6f988417a6f91a92d69f0b61f4c1cea34bb729fca6dbe44b79c6f088ebd693fe"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-22.zip",
+      "first_id": 3872016817,
+      "first_timestamp_ms": 1771718400090,
+      "last_id": 3872650689,
+      "last_timestamp_ms": 1771804799503,
+      "raw_rows": 633873,
+      "sha256": "52de0a68a12439f5b5985e0a1a415b917cb029900d7884996dd4f541732fe5f4"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-23.zip",
+      "first_id": 3872650690,
+      "first_timestamp_ms": 1771804800057,
+      "last_id": 3874910314,
+      "last_timestamp_ms": 1771891199015,
+      "raw_rows": 2259625,
+      "sha256": "5278758207a7862e32e67a44aee9489810e1486fb08eb1c1dd7dbc8d691ff024"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-24.zip",
+      "first_id": 3874910315,
+      "first_timestamp_ms": 1771891200008,
+      "last_id": 3876892396,
+      "last_timestamp_ms": 1771977599949,
+      "raw_rows": 1982082,
+      "sha256": "384ea36e72b8fd4ad574203600dfc73d3a227a8ea4fbee3e60e4b5f490b46f11"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-25.zip",
+      "first_id": 3876892397,
+      "first_timestamp_ms": 1771977600145,
+      "last_id": 3878993639,
+      "last_timestamp_ms": 1772063999988,
+      "raw_rows": 2101243,
+      "sha256": "b4f9d82c318e201d34c62091acb576187956144eb5aefe768de9105f40eaca0a"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-26.zip",
+      "first_id": 3878993640,
+      "first_timestamp_ms": 1772064000004,
+      "last_id": 3880521868,
+      "last_timestamp_ms": 1772150399383,
+      "raw_rows": 1528229,
+      "sha256": "6d986ead8e90d62a5d34010b29263852b7c182f7fa7e69206a86f2d4a0426b93"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-27.zip",
+      "first_id": 3880521869,
+      "first_timestamp_ms": 1772150400090,
+      "last_id": 3881894302,
+      "last_timestamp_ms": 1772236798809,
+      "raw_rows": 1372434,
+      "sha256": "082f5ee2aee69bc6bee08d7ffc16800dc9178fa60f739ccb57b51e5756b81e36"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-02-28.zip",
+      "first_id": 3881894303,
+      "first_timestamp_ms": 1772236800010,
+      "last_id": 3883581850,
+      "last_timestamp_ms": 1772323199996,
+      "raw_rows": 1687548,
+      "sha256": "2c17aad867f6d78174297d6b9ec8e89ef604ea17c7626d124d73ae4904c4b9b8"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-01.zip",
+      "first_id": 3883581851,
+      "first_timestamp_ms": 1772323200005,
+      "last_id": 3885341677,
+      "last_timestamp_ms": 1772409599656,
+      "raw_rows": 1759827,
+      "sha256": "889fddf90bb00e7ff4f84ba8ed5b7b4a17272be2e04927349684e8a9ae9f7596"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-02.zip",
+      "first_id": 3885341678,
+      "first_timestamp_ms": 1772409600231,
+      "last_id": 3887672243,
+      "last_timestamp_ms": 1772495999945,
+      "raw_rows": 2330566,
+      "sha256": "e07c2ec01191599aa4e064248de518bf914350f9527db37434791a71afae831f"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-03.zip",
+      "first_id": 3887672244,
+      "first_timestamp_ms": 1772496000090,
+      "last_id": 3889778831,
+      "last_timestamp_ms": 1772582399841,
+      "raw_rows": 2106588,
+      "sha256": "77f29ab476b270a1830d57000d36b000cb82f923390a284108b4da0cf87f15f4"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-04.zip",
+      "first_id": 3889778832,
+      "first_timestamp_ms": 1772582400004,
+      "last_id": 3892304328,
+      "last_timestamp_ms": 1772668799638,
+      "raw_rows": 2525497,
+      "sha256": "d9a567fac2e01351aed81927b37ef34e23f5ba3a7fa63339086b5b28f20f57cc"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-05.zip",
+      "first_id": 3892304329,
+      "first_timestamp_ms": 1772668800209,
+      "last_id": 3894092076,
+      "last_timestamp_ms": 1772755199510,
+      "raw_rows": 1787748,
+      "sha256": "ca259c5f5181f0608ec72d80c5429a1b62966baef95f86fc19c66d1067d55b7e"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-06.zip",
+      "first_id": 3894092077,
+      "first_timestamp_ms": 1772755200128,
+      "last_id": 3895546658,
+      "last_timestamp_ms": 1772841598831,
+      "raw_rows": 1454582,
+      "sha256": "c9456a161d9ec175755fefa231da1a127a42a64dc7e4c3c8513895048b3453ce"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-07.zip",
+      "first_id": 3895546659,
+      "first_timestamp_ms": 1772841600132,
+      "last_id": 3896167900,
+      "last_timestamp_ms": 1772927999989,
+      "raw_rows": 621242,
+      "sha256": "50138fb40e7d5157e804c215238565029a527d35c6f8bba32f3baf2e0d78ba89"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-08.zip",
+      "first_id": 3896167901,
+      "first_timestamp_ms": 1772928000179,
+      "last_id": 3897105526,
+      "last_timestamp_ms": 1773014399396,
+      "raw_rows": 937626,
+      "sha256": "fd6e1e39152affe0cb89f1cab8e0816aadd37f00ded0f46561291cc60fb1c071"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-09.zip",
+      "first_id": 3897105527,
+      "first_timestamp_ms": 1773014400102,
+      "last_id": 3898606471,
+      "last_timestamp_ms": 1773100799698,
+      "raw_rows": 1500945,
+      "sha256": "4844a9053e3fbaa459165d101b0c4a39375ea0b6584db36c8eb4f00829e6a186"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-10.zip",
+      "first_id": 3898606472,
+      "first_timestamp_ms": 1773100800116,
+      "last_id": 3900165464,
+      "last_timestamp_ms": 1773187199009,
+      "raw_rows": 1558993,
+      "sha256": "ca9c7587a29df3761ae60c3454619a85e64a658c4d2224983a2cfbf31b3eac3c"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-11.zip",
+      "first_id": 3900165465,
+      "first_timestamp_ms": 1773187200109,
+      "last_id": 3901480937,
+      "last_timestamp_ms": 1773273599739,
+      "raw_rows": 1315473,
+      "sha256": "c8aecbdf137e5579e3ac02cf13ea1807780e4c6b45ce3d4797efe1dd3c4c4750"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-12.zip",
+      "first_id": 3901480938,
+      "first_timestamp_ms": 1773273600081,
+      "last_id": 3902654835,
+      "last_timestamp_ms": 1773359999915,
+      "raw_rows": 1173898,
+      "sha256": "3fc1433004efbf9dd2cfd1c1fc09490b944ee6bfe9f5b192f0db31b6903bb5fa"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-13.zip",
+      "first_id": 3902654836,
+      "first_timestamp_ms": 1773360000019,
+      "last_id": 3904142900,
+      "last_timestamp_ms": 1773446399924,
+      "raw_rows": 1488065,
+      "sha256": "d7c71c3014b19d2a8c39a0b6d6aa7bdb7dd83c6b24cd87a0823f68431e5bda0f"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-14.zip",
+      "first_id": 3904142901,
+      "first_timestamp_ms": 1773446400083,
+      "last_id": 3904655348,
+      "last_timestamp_ms": 1773532799743,
+      "raw_rows": 512448,
+      "sha256": "e3406e2a97a619111e173884b4d861027ec3a5d960b55d9c7a19d529e2443d26"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-15.zip",
+      "first_id": 3904655349,
+      "first_timestamp_ms": 1773532800229,
+      "last_id": 3905357360,
+      "last_timestamp_ms": 1773619199677,
+      "raw_rows": 702012,
+      "sha256": "47cf5eecff2f29fab7086f38086bc108289f2bafd737cf2e7c856e7d127d5241"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-16.zip",
+      "first_id": 3905357361,
+      "first_timestamp_ms": 1773619200071,
+      "last_id": 3906732907,
+      "last_timestamp_ms": 1773705599786,
+      "raw_rows": 1375547,
+      "sha256": "0d6c619dfcb35aa4defb58b9e1c8361a9c6d31da53c260228b37d3bcdf0d4dde"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-17.zip",
+      "first_id": 3906732908,
+      "first_timestamp_ms": 1773705600115,
+      "last_id": 3907922250,
+      "last_timestamp_ms": 1773791999106,
+      "raw_rows": 1189343,
+      "sha256": "623dc6113b7dd15db3ea062a6dbffa4f5e780278c44e6d2b670d2fc7a05a1638"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-18.zip",
+      "first_id": 3907922251,
+      "first_timestamp_ms": 1773792000065,
+      "last_id": 3909081817,
+      "last_timestamp_ms": 1773878399680,
+      "raw_rows": 1159567,
+      "sha256": "c93be72d29d140ce2d8db4dd41e2f278ba700a19f0f965ef1d99be551ceaa1ce"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-19.zip",
+      "first_id": 3909081818,
+      "first_timestamp_ms": 1773878400227,
+      "last_id": 3910242851,
+      "last_timestamp_ms": 1773964799018,
+      "raw_rows": 1161034,
+      "sha256": "aa80b1e0599fa1e89cfae52103c8f2ff12b4d6fab41066c23b115a731f821a11"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-20.zip",
+      "first_id": 3910242852,
+      "first_timestamp_ms": 1773964800065,
+      "last_id": 3911295254,
+      "last_timestamp_ms": 1774051199062,
+      "raw_rows": 1052403,
+      "sha256": "77b017fe9ff46305d109298dc3766a32754f9d656e3445db88e66800aeb3c44d"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-21.zip",
+      "first_id": 3911295255,
+      "first_timestamp_ms": 1774051200222,
+      "last_id": 3911753462,
+      "last_timestamp_ms": 1774137599931,
+      "raw_rows": 458208,
+      "sha256": "44c0e1d7d2e9d6c95102e0549d8c01fdfaee6e6afea2cfaa2ba3522bc9fecfd8"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-22.zip",
+      "first_id": 3911753463,
+      "first_timestamp_ms": 1774137600056,
+      "last_id": 3912595962,
+      "last_timestamp_ms": 1774223998929,
+      "raw_rows": 842500,
+      "sha256": "9a92e533d98637c2f9f68c4ecf8a81113912e79672dafc3568d1f13c56a58772"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-23.zip",
+      "first_id": 3912595963,
+      "first_timestamp_ms": 1774224000005,
+      "last_id": 3914261090,
+      "last_timestamp_ms": 1774310399689,
+      "raw_rows": 1665128,
+      "sha256": "7bbccaa091621f83ebd82ad1df6ddab4c76877c52a216160f07cb9d76f56eef5"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-24.zip",
+      "first_id": 3914261091,
+      "first_timestamp_ms": 1774310400116,
+      "last_id": 3915404667,
+      "last_timestamp_ms": 1774396799782,
+      "raw_rows": 1143577,
+      "sha256": "cd946e4820dbd51e92b065ceec22215edd27d9323c73b7369353f5672a3fb66b"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-25.zip",
+      "first_id": 3915404668,
+      "first_timestamp_ms": 1774396800003,
+      "last_id": 3916313029,
+      "last_timestamp_ms": 1774483198612,
+      "raw_rows": 908362,
+      "sha256": "b367a4786cc9427e8db3ac6c5a670113fd5c863aab4419eaf35470d919f5695c"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-26.zip",
+      "first_id": 3916313030,
+      "first_timestamp_ms": 1774483200005,
+      "last_id": 3917298256,
+      "last_timestamp_ms": 1774569598876,
+      "raw_rows": 985227,
+      "sha256": "46a0d895b243bdc19d39fc9d59414b82f38035dd778fabe7e15e670cc1cf2485"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-27.zip",
+      "first_id": 3917298257,
+      "first_timestamp_ms": 1774569600000,
+      "last_id": 3918473618,
+      "last_timestamp_ms": 1774655999938,
+      "raw_rows": 1175362,
+      "sha256": "45ba2266d961a334253d6fe302119266e5e9ff4bd86210a3de60b329cb7ea669"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-28.zip",
+      "first_id": 3918473619,
+      "first_timestamp_ms": 1774656000078,
+      "last_id": 3918986598,
+      "last_timestamp_ms": 1774742399997,
+      "raw_rows": 512980,
+      "sha256": "8ba95c27f95a0b3c3419143c67464c9f03c3d350023229861662cba6784bacaf"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-29.zip",
+      "first_id": 3918986599,
+      "first_timestamp_ms": 1774742400115,
+      "last_id": 3919602729,
+      "last_timestamp_ms": 1774828799999,
+      "raw_rows": 616131,
+      "sha256": "f93744c8166aa486bfb0df7f8272c209f9de90f5fbb6d2ef41d3b4ffc583c838"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-30.zip",
+      "first_id": 3919602730,
+      "first_timestamp_ms": 1774828800062,
+      "last_id": 3920652481,
+      "last_timestamp_ms": 1774915199569,
+      "raw_rows": 1049752,
+      "sha256": "15aa890f458b1c53a5e866e4278c4d09feb9f7768eb1ac70c74a9dcc65232d0b"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-03-31.zip",
+      "first_id": 3920652482,
+      "first_timestamp_ms": 1774915200132,
+      "last_id": 3921930717,
+      "last_timestamp_ms": 1775001599618,
+      "raw_rows": 1278236,
+      "sha256": "a5a02e218e2c675c36d6f4285c2efe6011c6c7dcc3ff505da13ce17724e78465"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-01.zip",
+      "first_id": 3921930718,
+      "first_timestamp_ms": 1775001600062,
+      "last_id": 3922955506,
+      "last_timestamp_ms": 1775087998305,
+      "raw_rows": 1024789,
+      "sha256": "11d66b42a766c84a501f30badbaed60cd5ff3d8bd3d8eb3d1ed41d749fea2cf0"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-02.zip",
+      "first_id": 3922955507,
+      "first_timestamp_ms": 1775088000099,
+      "last_id": 3924139449,
+      "last_timestamp_ms": 1775174399975,
+      "raw_rows": 1183943,
+      "sha256": "776dd5c9cae94943c4c11eebd436d74f887ff6ac8bd3a7bb4dee4d911621fdec"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-03.zip",
+      "first_id": 3924139450,
+      "first_timestamp_ms": 1775174400033,
+      "last_id": 3924721792,
+      "last_timestamp_ms": 1775260799334,
+      "raw_rows": 582343,
+      "sha256": "5978c0331f0ac0519330f0cb0c238b6e53898d661c0438dccc4f3ee70d6a0b74"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-04.zip",
+      "first_id": 3924721793,
+      "first_timestamp_ms": 1775260800070,
+      "last_id": 3925387134,
+      "last_timestamp_ms": 1775347199146,
+      "raw_rows": 665342,
+      "sha256": "e382b7c9d5e17e2d30833318261bfe64e0596b8c4221d3272e057997c301c8b9"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-05.zip",
+      "first_id": 3925387135,
+      "first_timestamp_ms": 1775347200168,
+      "last_id": 3926310407,
+      "last_timestamp_ms": 1775433599494,
+      "raw_rows": 923273,
+      "sha256": "49845a73e9366e598139db6f7a04f700b93d7ff9da7f34bc7280e169a13a4161"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-06.zip",
+      "first_id": 3926310408,
+      "first_timestamp_ms": 1775433600072,
+      "last_id": 3928064437,
+      "last_timestamp_ms": 1775519999832,
+      "raw_rows": 1754030,
+      "sha256": "85e56d301881a03ddb40997136be27731f081357639ec8af0a856c461871238b"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-07.zip",
+      "first_id": 3928064438,
+      "first_timestamp_ms": 1775520000067,
+      "last_id": 3929498278,
+      "last_timestamp_ms": 1775606399836,
+      "raw_rows": 1433841,
+      "sha256": "9ad3f26e1b47c4c54cb257b8ce21ea2c4257ba9d4ba9516d274bf4c58b1452fd"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-08.zip",
+      "first_id": 3929498279,
+      "first_timestamp_ms": 1775606400004,
+      "last_id": 3930540019,
+      "last_timestamp_ms": 1775692799321,
+      "raw_rows": 1041741,
+      "sha256": "523c653ee9c173e2c45fb236cc45aabbb34d6871f46b5cecd3a62f34795d9865"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-09.zip",
+      "first_id": 3930540020,
+      "first_timestamp_ms": 1775692800014,
+      "last_id": 3931557284,
+      "last_timestamp_ms": 1775779198292,
+      "raw_rows": 1017265,
+      "sha256": "6ba70fb0df0c0169c24646e2ae4f049ef6447383e54f210a9785acb76a1a2c3e"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-10.zip",
+      "first_id": 3931557285,
+      "first_timestamp_ms": 1775779200179,
+      "last_id": 3932468109,
+      "last_timestamp_ms": 1775865599761,
+      "raw_rows": 910825,
+      "sha256": "503977dc49253c75cbdca6e539e78258aba3e8ffc8c1214fdd33e16302d8e4c9"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-11.zip",
+      "first_id": 3932468110,
+      "first_timestamp_ms": 1775865600171,
+      "last_id": 3932941499,
+      "last_timestamp_ms": 1775951999796,
+      "raw_rows": 473390,
+      "sha256": "757776f2e93bf5db1774cba151cc299bf3e87720260e7671d694b2b5bb9e7e19"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-12.zip",
+      "first_id": 3932941500,
+      "first_timestamp_ms": 1775952000069,
+      "last_id": 3933592681,
+      "last_timestamp_ms": 1776038399682,
+      "raw_rows": 651182,
+      "sha256": "0333a7d424643dc6eb1cb29f28fe530d149f2c4d3c3c6800e8c17cf87072a0ad"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-13.zip",
+      "first_id": 3933592682,
+      "first_timestamp_ms": 1776038400119,
+      "last_id": 3934661664,
+      "last_timestamp_ms": 1776124799541,
+      "raw_rows": 1068983,
+      "sha256": "eee582338550548a00bcb408cd7a5dcedb3d839496249e59007fc8e0588c2c5a"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-14.zip",
+      "first_id": 3934661665,
+      "first_timestamp_ms": 1776124800090,
+      "last_id": 3935762283,
+      "last_timestamp_ms": 1776211199920,
+      "raw_rows": 1100619,
+      "sha256": "11fb4bcb011c0d3c072c27e42355a617f09395e2edaecd946da085dfe09a3d62"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-15.zip",
+      "first_id": 3935762284,
+      "first_timestamp_ms": 1776211200094,
+      "last_id": 3936643144,
+      "last_timestamp_ms": 1776297599802,
+      "raw_rows": 880861,
+      "sha256": "f1774d0ebedf2070d6346da10eef185d40a4cbebcb398de0f0a1960ae93a4a4f"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-16.zip",
+      "first_id": 3936643145,
+      "first_timestamp_ms": 1776297600003,
+      "last_id": 3937598903,
+      "last_timestamp_ms": 1776383998708,
+      "raw_rows": 955759,
+      "sha256": "a8ea21fb98ce9547b6c33153c19936d9b6d66b364095e2dda6c03626bf2457d2"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-17.zip",
+      "first_id": 3937598904,
+      "first_timestamp_ms": 1776384000042,
+      "last_id": 3938782168,
+      "last_timestamp_ms": 1776470399893,
+      "raw_rows": 1183265,
+      "sha256": "164fdbfb4376ede8f33e96777903cc524719d7f22285e19905b1763047c1bab4"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-18.zip",
+      "first_id": 3938782169,
+      "first_timestamp_ms": 1776470400011,
+      "last_id": 3939337779,
+      "last_timestamp_ms": 1776556799766,
+      "raw_rows": 555611,
+      "sha256": "7b5e335ea846987462033a08e433b3d7bbaa50025cd8b3909add14117548710f"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-19.zip",
+      "first_id": 3939337780,
+      "first_timestamp_ms": 1776556800106,
+      "last_id": 3940128063,
+      "last_timestamp_ms": 1776643199907,
+      "raw_rows": 790284,
+      "sha256": "06277f059ad6885e04b2bd8a6957de99637bf1c4ccd63f2e5d66c1df62e8830c"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-20.zip",
+      "first_id": 3940128064,
+      "first_timestamp_ms": 1776643200065,
+      "last_id": 3941032180,
+      "last_timestamp_ms": 1776729599557,
+      "raw_rows": 904117,
+      "sha256": "9a3e8d8d4de0ddbea72c95c010e4f4b30cb603857876b836104bf7dfb9938ab6"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-21.zip",
+      "first_id": 3941032181,
+      "first_timestamp_ms": 1776729600001,
+      "last_id": 3941950967,
+      "last_timestamp_ms": 1776815998490,
+      "raw_rows": 918787,
+      "sha256": "1a43425488982511b7258194345189e76a37dca32cc6064cf9cb902ed6dd2a3e"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-22.zip",
+      "first_id": 3941950968,
+      "first_timestamp_ms": 1776816000008,
+      "last_id": 3942952603,
+      "last_timestamp_ms": 1776902399615,
+      "raw_rows": 1001636,
+      "sha256": "493d45617740a64cc7df2291957a1e34480d7c56d8b8146950d8a016f511b42c"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-23.zip",
+      "first_id": 3942952604,
+      "first_timestamp_ms": 1776902400085,
+      "last_id": 3943857515,
+      "last_timestamp_ms": 1776988799139,
+      "raw_rows": 904912,
+      "sha256": "9bd63ef82e43c58779fe1362bb4632b3ab6496bc88978356f3981e42c0684864"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-24.zip",
+      "first_id": 3943857516,
+      "first_timestamp_ms": 1776988800034,
+      "last_id": 3944518575,
+      "last_timestamp_ms": 1777075197147,
+      "raw_rows": 661060,
+      "sha256": "3cb8a746b8fa2025b49c9593fac0f9ca68b1746457bd05a60d5ae5aff55c0257"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-25.zip",
+      "first_id": 3944518576,
+      "first_timestamp_ms": 1777075200110,
+      "last_id": 3944805099,
+      "last_timestamp_ms": 1777161599353,
+      "raw_rows": 286524,
+      "sha256": "1fdd7cc9f67bdad2460e5ff375e7bbe83be2701403eabb055b92adde2cdb0722"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-26.zip",
+      "first_id": 3944805100,
+      "first_timestamp_ms": 1777161600100,
+      "last_id": 3945248842,
+      "last_timestamp_ms": 1777247999996,
+      "raw_rows": 443743,
+      "sha256": "2c99ad39fcb38453064fd10132fd5ca922c113f4646b1b06c6697c5be688761d"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-27.zip",
+      "first_id": 3945248843,
+      "first_timestamp_ms": 1777248000004,
+      "last_id": 3946034684,
+      "last_timestamp_ms": 1777334399138,
+      "raw_rows": 785842,
+      "sha256": "35d864a53ceb1f13729f04a88cf9b4d9e464cc183d1e36034b9f3ee9118c34c7"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-28.zip",
+      "first_id": 3946034685,
+      "first_timestamp_ms": 1777334400175,
+      "last_id": 3946660312,
+      "last_timestamp_ms": 1777420799725,
+      "raw_rows": 625628,
+      "sha256": "eb2f2bc73e69fa5c98cd390087b6d5a7a756476aca78d7a6319b953676c32ea7"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-29.zip",
+      "first_id": 3946660313,
+      "first_timestamp_ms": 1777420800117,
+      "last_id": 3947450052,
+      "last_timestamp_ms": 1777507199070,
+      "raw_rows": 789740,
+      "sha256": "eb203915687654eaf9bcc769a923102e1614907c18958fba7ac89afca969d11c"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-04-30.zip",
+      "first_id": 3947450053,
+      "first_timestamp_ms": 1777507200169,
+      "last_id": 3948079642,
+      "last_timestamp_ms": 1777593598515,
+      "raw_rows": 629590,
+      "sha256": "98ce74475a277df4747f2641ada9064b4ef49e1cc879978e1d6c2266b5ca2b6f"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-01.zip",
+      "first_id": 3948079643,
+      "first_timestamp_ms": 1777593600365,
+      "last_id": 3948808724,
+      "last_timestamp_ms": 1777679997897,
+      "raw_rows": 729082,
+      "sha256": "4569310d10f14b118ad4320f32b79e4d025228a4b12267f51b3dc972aa2f32c3"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-02.zip",
+      "first_id": 3948808725,
+      "first_timestamp_ms": 1777680000096,
+      "last_id": 3949121990,
+      "last_timestamp_ms": 1777766398440,
+      "raw_rows": 313266,
+      "sha256": "ddda5f54f18b80c78f2cfabc8ae1fa6f279e55996aec6d23cc505a4cef866c26"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-03.zip",
+      "first_id": 3949121991,
+      "first_timestamp_ms": 1777766400117,
+      "last_id": 3949521725,
+      "last_timestamp_ms": 1777852799991,
+      "raw_rows": 399735,
+      "sha256": "f1afa7012fa1443cbb7f67ffb6db5c75ee055110f198c7d6018977ab5c5efd68"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-04.zip",
+      "first_id": 3949521726,
+      "first_timestamp_ms": 1777852800060,
+      "last_id": 3950630862,
+      "last_timestamp_ms": 1777939197736,
+      "raw_rows": 1109137,
+      "sha256": "3cfba0adc42f34444c939ed50fd3197792778d5b5ffec7b04ff71c2cda9d47cb"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-05.zip",
+      "first_id": 3950630863,
+      "first_timestamp_ms": 1777939200007,
+      "last_id": 3951368027,
+      "last_timestamp_ms": 1778025599996,
+      "raw_rows": 737165,
+      "sha256": "d4ed992543cfff19ab1d52367ea8065206bfe2679c3f6c41f3052f9fc699932e"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-06.zip",
+      "first_id": 3951368028,
+      "first_timestamp_ms": 1778025600076,
+      "last_id": 3952206223,
+      "last_timestamp_ms": 1778111998251,
+      "raw_rows": 838196,
+      "sha256": "a5ba60e5fd57d92ad8277139b0349a500f198b33a0add614639eaad220d2d779"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-07.zip",
+      "first_id": 3952206224,
+      "first_timestamp_ms": 1778112000117,
+      "last_id": 3952950558,
+      "last_timestamp_ms": 1778198399224,
+      "raw_rows": 744335,
+      "sha256": "fc735c732c53101f522355855d92eb9eb021153354e3160d87b8f6e2cda85175"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-08.zip",
+      "first_id": 3952950559,
+      "first_timestamp_ms": 1778198400018,
+      "last_id": 3953619213,
+      "last_timestamp_ms": 1778284798789,
+      "raw_rows": 668655,
+      "sha256": "b11e9c263d68e5cc1c1cdc3638a2d4cccb9a918ff42646c7d3f1ac20c40a8e65"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-09.zip",
+      "first_id": 3953619214,
+      "first_timestamp_ms": 1778284800040,
+      "last_id": 3953975154,
+      "last_timestamp_ms": 1778371199658,
+      "raw_rows": 355941,
+      "sha256": "3ae15a2530fb1c6b150efa8d62fdae30ce7797b41cd1b5050f9a1f988d736e4d"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-10.zip",
+      "first_id": 3953975155,
+      "first_timestamp_ms": 1778371200125,
+      "last_id": 3954531984,
+      "last_timestamp_ms": 1778457599594,
+      "raw_rows": 556830,
+      "sha256": "b7fc535b02858b6a9a7ed72b1c93afdec1978ef1757de57c0820ede1884269a3"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-11.zip",
+      "first_id": 3954531985,
+      "first_timestamp_ms": 1778457600195,
+      "last_id": 3955253934,
+      "last_timestamp_ms": 1778543999370,
+      "raw_rows": 721950,
+      "sha256": "a1c5d89eb35c299cdfb3455aa2818baad528308009c68af75f5ae7910eb39bba"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-12.zip",
+      "first_id": 3955253935,
+      "first_timestamp_ms": 1778544000122,
+      "last_id": 3955926909,
+      "last_timestamp_ms": 1778630399977,
+      "raw_rows": 672975,
+      "sha256": "7549c7ef5f63d44cf2566e1b9b5b854c883da203daf00a035085937b1a581bb4"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-13.zip",
+      "first_id": 3955926910,
+      "first_timestamp_ms": 1778630400070,
+      "last_id": 3956566391,
+      "last_timestamp_ms": 1778716799257,
+      "raw_rows": 639482,
+      "sha256": "b7f75cf47e7358fddf38b6dacebd0950e41f2cc2815f0dd682a23b4c13216d06"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-14.zip",
+      "first_id": 3956566392,
+      "first_timestamp_ms": 1778716800112,
+      "last_id": 3957364234,
+      "last_timestamp_ms": 1778803199853,
+      "raw_rows": 797843,
+      "sha256": "0e4cf3922fd3eeb927e5872b19fa33cf10fc49e56afa46a3ee5c0681604bf023"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-15.zip",
+      "first_id": 3957364235,
+      "first_timestamp_ms": 1778803200001,
+      "last_id": 3958186638,
+      "last_timestamp_ms": 1778889599595,
+      "raw_rows": 822404,
+      "sha256": "59120fddbd28d0c20667b89ef0f6942cf56dc5855b7c53c98312722f77acff5d"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-16.zip",
+      "first_id": 3958186639,
+      "first_timestamp_ms": 1778889600059,
+      "last_id": 3958678392,
+      "last_timestamp_ms": 1778975998475,
+      "raw_rows": 491754,
+      "sha256": "6a518bce6e88f51ba94dc45d3fee64e7de24b4af26d8c7f39daa8b2f36e94358"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-17.zip",
+      "first_id": 3958678393,
+      "first_timestamp_ms": 1778976000181,
+      "last_id": 3959138976,
+      "last_timestamp_ms": 1779062399758,
+      "raw_rows": 460584,
+      "sha256": "3bfdf9b2d99c4883f9fb59c730245df3b47cf76cefb22673d6d788dceb93f73e"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-18.zip",
+      "first_id": 3959138977,
+      "first_timestamp_ms": 1779062400115,
+      "last_id": 3960064156,
+      "last_timestamp_ms": 1779148799282,
+      "raw_rows": 925180,
+      "sha256": "aad8cba5529c5cff75ebcc06735abdb4e62b15c4895538f75e5a9c8eef7f67ce"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-19.zip",
+      "first_id": 3960064157,
+      "first_timestamp_ms": 1779148800032,
+      "last_id": 3960683682,
+      "last_timestamp_ms": 1779235198527,
+      "raw_rows": 619526,
+      "sha256": "94ad5b92063cbdb3c6c24e072b7a70879d36f39ac3d42fa4a7004aba2774eb73"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-20.zip",
+      "first_id": 3960683683,
+      "first_timestamp_ms": 1779235200183,
+      "last_id": 3961357201,
+      "last_timestamp_ms": 1779321599640,
+      "raw_rows": 673519,
+      "sha256": "c8c5f06399eb3f15efb9478e5326de7bdeb4a8c45fd878826019f56362ac92e4"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-21.zip",
+      "first_id": 3961357202,
+      "first_timestamp_ms": 1779321600096,
+      "last_id": 3962033066,
+      "last_timestamp_ms": 1779407999849,
+      "raw_rows": 675865,
+      "sha256": "ed306af9d185a59c156561bf58b88a9153e7ea1cfb8309b67e51624a9362b2e6"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-22.zip",
+      "first_id": 3962033067,
+      "first_timestamp_ms": 1779408000118,
+      "last_id": 3962703637,
+      "last_timestamp_ms": 1779494399872,
+      "raw_rows": 670571,
+      "sha256": "590753b52e0ec8c659bad6338395664879b73dfe7f606c7d0e51edc72dacd320"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-23.zip",
+      "first_id": 3962703638,
+      "first_timestamp_ms": 1779494400011,
+      "last_id": 3963461893,
+      "last_timestamp_ms": 1779580799678,
+      "raw_rows": 758256,
+      "sha256": "83b6351f5667262cd022d9aa048f3069de89e99427bd128f439802681ce97f9d"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-24.zip",
+      "first_id": 3963461894,
+      "first_timestamp_ms": 1779580800187,
+      "last_id": 3963960693,
+      "last_timestamp_ms": 1779667199912,
+      "raw_rows": 498800,
+      "sha256": "04880e4828fed62df5ba807f306d9b6d551229b2f3ed0bb7d2e87c27f850d26a"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-25.zip",
+      "first_id": 3963960694,
+      "first_timestamp_ms": 1779667200192,
+      "last_id": 3964503080,
+      "last_timestamp_ms": 1779753598056,
+      "raw_rows": 542387,
+      "sha256": "e09295844cc62af87734172d668e612258a2b572773b4d371309a1c8ebc47870"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-26.zip",
+      "first_id": 3964503081,
+      "first_timestamp_ms": 1779753600095,
+      "last_id": 3965455847,
+      "last_timestamp_ms": 1779839999886,
+      "raw_rows": 952767,
+      "sha256": "8fe30017386f1045de42b9c1ca714173d82f0d16aad13d354e8f6fced61dfd36"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-27.zip",
+      "first_id": 3965455848,
+      "first_timestamp_ms": 1779840000062,
+      "last_id": 3966472349,
+      "last_timestamp_ms": 1779926399067,
+      "raw_rows": 1016502,
+      "sha256": "46055b837720341c2831d17531acf1e5ee3c293cd1c4a75ba49c7c7dd36354ee"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-28.zip",
+      "first_id": 3966472350,
+      "first_timestamp_ms": 1779926400093,
+      "last_id": 3967539695,
+      "last_timestamp_ms": 1780012799585,
+      "raw_rows": 1067346,
+      "sha256": "e8942ae8d4cd471cdb340e658af1c79d0fbe8149c54565946f1e4832608659fa"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-29.zip",
+      "first_id": 3967539696,
+      "first_timestamp_ms": 1780012800077,
+      "last_id": 3968354890,
+      "last_timestamp_ms": 1780099198821,
+      "raw_rows": 815195,
+      "sha256": "104a4be8f39b0769b994e705d54b4149783052c3359a1af989e6727c99c7142f"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-30.zip",
+      "first_id": 3968354891,
+      "first_timestamp_ms": 1780099200010,
+      "last_id": 3968723327,
+      "last_timestamp_ms": 1780185599251,
+      "raw_rows": 368437,
+      "sha256": "21cbdc98345f2d3e79067894c4b3c81d741cadc1d2d7f1b8fc12fbb5549bb138"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-05-31.zip",
+      "first_id": 3968723328,
+      "first_timestamp_ms": 1780185600065,
+      "last_id": 3969159907,
+      "last_timestamp_ms": 1780271999698,
+      "raw_rows": 436580,
+      "sha256": "066ba3e405034550b8a35980ef257e7a1839c6402e33e8c16ad93f591f2d91e6"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-01.zip",
+      "first_id": 3969159908,
+      "first_timestamp_ms": 1780272000140,
+      "last_id": 3970366817,
+      "last_timestamp_ms": 1780358399868,
+      "raw_rows": 1206910,
+      "sha256": "cfd4c1b50a8123c696673213a35604e7bb776c3ed8b4e2fb63745efe779fa57a"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-02.zip",
+      "first_id": 3970366818,
+      "first_timestamp_ms": 1780358400102,
+      "last_id": 3972043859,
+      "last_timestamp_ms": 1780444799658,
+      "raw_rows": 1677042,
+      "sha256": "840ba4cbb1dbc1b3498db81c02c4f5ab83f03fc89d2395a2ec6047f1db02af35"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-03.zip",
+      "first_id": 3972043860,
+      "first_timestamp_ms": 1780444800127,
+      "last_id": 3973765034,
+      "last_timestamp_ms": 1780531199568,
+      "raw_rows": 1721175,
+      "sha256": "94bbc68aa969bf71c490104157c42c735dea0f41595c073bc160a38633785aaa"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-04.zip",
+      "first_id": 3973765035,
+      "first_timestamp_ms": 1780531200008,
+      "last_id": 3976513911,
+      "last_timestamp_ms": 1780617599362,
+      "raw_rows": 2748877,
+      "sha256": "220942ffadd0e8db09a875f02113e92095184495246177fa440d2b5efcf376fe"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-05.zip",
+      "first_id": 3976513912,
+      "first_timestamp_ms": 1780617600047,
+      "last_id": 3979849824,
+      "last_timestamp_ms": 1780703998131,
+      "raw_rows": 3335913,
+      "sha256": "dc86359b8a4908388cb0b275ba11522a9ee8d4e6a1376f9e2892bef92a6a31dd"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-06.zip",
+      "first_id": 3979849825,
+      "first_timestamp_ms": 1780704000135,
+      "last_id": 3981258304,
+      "last_timestamp_ms": 1780790398883,
+      "raw_rows": 1408480,
+      "sha256": "ecb720e010110bc65411d90aa29a74924e4a839c4b76869430186fd4691c988b"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-07.zip",
+      "first_id": 3981258305,
+      "first_timestamp_ms": 1780790400068,
+      "last_id": 3982585719,
+      "last_timestamp_ms": 1780876799280,
+      "raw_rows": 1327415,
+      "sha256": "2df2d14858387eac86fdf1a96749068eb1718b6537de94d9e5bc5ef165987373"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-08.zip",
+      "first_id": 3982585720,
+      "first_timestamp_ms": 1780876800109,
+      "last_id": 3983833381,
+      "last_timestamp_ms": 1780963199067,
+      "raw_rows": 1247662,
+      "sha256": "c4fc1e282bbb4becfc0961e11c564d6d66ee1b39155f56de368f0f6b87180a72"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-09.zip",
+      "first_id": 3983833382,
+      "first_timestamp_ms": 1780963200155,
+      "last_id": 3984971526,
+      "last_timestamp_ms": 1781049599700,
+      "raw_rows": 1138145,
+      "sha256": "1fce05b3b50eaa556471aeb0bde4e3569a56ce626cda1fcc7b154d2d2e17aee8"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-10.zip",
+      "first_id": 3984971527,
+      "first_timestamp_ms": 1781049600078,
+      "last_id": 3986134754,
+      "last_timestamp_ms": 1781135998973,
+      "raw_rows": 1163228,
+      "sha256": "b5c35d265010f59c02e5e2f77477546f828aaae908ba678b5edc47aedb2d7487"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-11.zip",
+      "first_id": 3986134755,
+      "first_timestamp_ms": 1781136000084,
+      "last_id": 3987028237,
+      "last_timestamp_ms": 1781222399446,
+      "raw_rows": 893483,
+      "sha256": "0269ed33b1d84aed836c988d98f3f65006621f0530d3fdb3eb7ed5be339a04b0"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-12.zip",
+      "first_id": 3987028238,
+      "first_timestamp_ms": 1781222400292,
+      "last_id": 3987816049,
+      "last_timestamp_ms": 1781308799571,
+      "raw_rows": 787812,
+      "sha256": "a6aee8ee338e4314dcd05fc0881b4f29eb1105c28743700ae39d1b2a051f4ad5"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-13.zip",
+      "first_id": 3987816050,
+      "first_timestamp_ms": 1781308800113,
+      "last_id": 3988229068,
+      "last_timestamp_ms": 1781395199873,
+      "raw_rows": 413019,
+      "sha256": "0f90d197a7aa52ade21e829a161eb824c660f4282c0a794b536a2c0d3d907684"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-14.zip",
+      "first_id": 3988229069,
+      "first_timestamp_ms": 1781395200164,
+      "last_id": 3988803650,
+      "last_timestamp_ms": 1781481599868,
+      "raw_rows": 574582,
+      "sha256": "6bbf9906fd42d9f707dcd16f7ff12bb976cc18cdcc62b0c6849e000ab9f0e02a"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-15.zip",
+      "first_id": 3988803651,
+      "first_timestamp_ms": 1781481600066,
+      "last_id": 3989613940,
+      "last_timestamp_ms": 1781567999282,
+      "raw_rows": 810290,
+      "sha256": "27ca160099b9a3cec22b686ed5731233da59fa2317c4df4945f719a761447cec"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-16.zip",
+      "first_id": 3989613941,
+      "first_timestamp_ms": 1781568000144,
+      "last_id": 3990322849,
+      "last_timestamp_ms": 1781654399651,
+      "raw_rows": 708909,
+      "sha256": "82fe1fe2ecc2f58bd42979e5a6fba9b9211599c465d142be47b31b1b5a6ee8f9"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-17.zip",
+      "first_id": 3990322850,
+      "first_timestamp_ms": 1781654400137,
+      "last_id": 3991291942,
+      "last_timestamp_ms": 1781740799244,
+      "raw_rows": 969093,
+      "sha256": "6ccfc8e95c4661d68e30fdd470186e0aca28774f29d1085ffe301221bdbc6fea"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-18.zip",
+      "first_id": 3991291943,
+      "first_timestamp_ms": 1781740800004,
+      "last_id": 3992119687,
+      "last_timestamp_ms": 1781827199904,
+      "raw_rows": 827745,
+      "sha256": "bb5fb4994b35c3c3ef9feb1ac8f7cadd9542babaeb5cefe48f4748befed7842a"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-19.zip",
+      "first_id": 3992119688,
+      "first_timestamp_ms": 1781827200124,
+      "last_id": 3992761527,
+      "last_timestamp_ms": 1781913599900,
+      "raw_rows": 641840,
+      "sha256": "a8f752d707cd602b741fe2a51d986702bc7c9bb825c7b20fcc2ead6c178d6536"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-20.zip",
+      "first_id": 3992761528,
+      "first_timestamp_ms": 1781913600059,
+      "last_id": 3993274731,
+      "last_timestamp_ms": 1781999999888,
+      "raw_rows": 513204,
+      "sha256": "cec7ca89f79047637c6e6eae443e455744d6c812c7036b9afa4d013fcb3b36cd"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-21.zip",
+      "first_id": 3993274732,
+      "first_timestamp_ms": 1782000000214,
+      "last_id": 3993695557,
+      "last_timestamp_ms": 1782086399723,
+      "raw_rows": 420826,
+      "sha256": "50a6b22c2080e00c5ffa5d025806e76af8670f6b6e0673ccbf1937c049780f2c"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-22.zip",
+      "first_id": 3993695558,
+      "first_timestamp_ms": 1782086400155,
+      "last_id": 3994535772,
+      "last_timestamp_ms": 1782172799141,
+      "raw_rows": 840215,
+      "sha256": "1fb1f629c5acc9923c23dd391fdea1b57d8f733d445941b6a9498ef2b6067b12"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-23.zip",
+      "first_id": 3994535773,
+      "first_timestamp_ms": 1782172800069,
+      "last_id": 3995446565,
+      "last_timestamp_ms": 1782259199505,
+      "raw_rows": 910793,
+      "sha256": "bcf80807cea2d5f86540f08c28aecf4f98ea07f1a3b30d18eed6309d2d418621"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-24.zip",
+      "first_id": 3995446566,
+      "first_timestamp_ms": 1782259200035,
+      "last_id": 3996837917,
+      "last_timestamp_ms": 1782345599585,
+      "raw_rows": 1391352,
+      "sha256": "d784d41469bcdd1e6c36d8750ce92665baabe05b1c6d6d1c08aabb9c6f140359"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-25.zip",
+      "first_id": 3996837918,
+      "first_timestamp_ms": 1782345600106,
+      "last_id": 3998383463,
+      "last_timestamp_ms": 1782431999998,
+      "raw_rows": 1545546,
+      "sha256": "c3592ac3813f833b8a58df5424e2264274c5b778d92c379e5eaab71596bcdb8b"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-26.zip",
+      "first_id": 3998383464,
+      "first_timestamp_ms": 1782432000001,
+      "last_id": 3999897577,
+      "last_timestamp_ms": 1782518399937,
+      "raw_rows": 1514114,
+      "sha256": "3dcb570acdee5891a5efd055407b8fb67b4b65a9b86913cb4820f7b313a37af1"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-27.zip",
+      "first_id": 3999897578,
+      "first_timestamp_ms": 1782518400011,
+      "last_id": 4000370918,
+      "last_timestamp_ms": 1782604799437,
+      "raw_rows": 473341,
+      "sha256": "66ab0f9d024695a87384515170a753228d70b95a3ed37b6e7f71c47a62819578"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-28.zip",
+      "first_id": 4000370919,
+      "first_timestamp_ms": 1782604800067,
+      "last_id": 4000971810,
+      "last_timestamp_ms": 1782691197102,
+      "raw_rows": 600892,
+      "sha256": "e133f3d03686df8439d26f9284d879949d61d5104d1e0868e99b0efa1e0774f0"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-29.zip",
+      "first_id": 4000971811,
+      "first_timestamp_ms": 1782691200033,
+      "last_id": 4002220045,
+      "last_timestamp_ms": 1782777599444,
+      "raw_rows": 1248235,
+      "sha256": "21b9046ab53a1db8f57df7b3cb4f9a2e4794bfabf751378a08c216a44f0b3db8"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-06-30.zip",
+      "first_id": 4002220046,
+      "first_timestamp_ms": 1782777600101,
+      "last_id": 4003234266,
+      "last_timestamp_ms": 1782863999932,
+      "raw_rows": 1014221,
+      "sha256": "e575dc55f6dfcfb8fc461568069165c9f8c071054a7089fff9786122a6270231"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-01.zip",
+      "first_id": 4003234267,
+      "first_timestamp_ms": 1782864000054,
+      "last_id": 4004327798,
+      "last_timestamp_ms": 1782950399831,
+      "raw_rows": 1093532,
+      "sha256": "6b00333f582003fadbcd17c4521d4607896c84d61abdcd91bfb1e2c7b904c90c"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-02.zip",
+      "first_id": 4004327799,
+      "first_timestamp_ms": 1782950400058,
+      "last_id": 4005325286,
+      "last_timestamp_ms": 1783036799535,
+      "raw_rows": 997488,
+      "sha256": "f958dd94ece296683393b53eec1af20bc3aae1ae1e494612933a39397dd6c6f8"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-03.zip",
+      "first_id": 4005325287,
+      "first_timestamp_ms": 1783036800121,
+      "last_id": 4005992928,
+      "last_timestamp_ms": 1783123199782,
+      "raw_rows": 667642,
+      "sha256": "021bea55b0a19c853c280589228b471ce32c4a67ad9d5ede70f8b4fc44ee0901"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-04.zip",
+      "first_id": 4005992929,
+      "first_timestamp_ms": 1783123200124,
+      "last_id": 4006423263,
+      "last_timestamp_ms": 1783209598089,
+      "raw_rows": 430335,
+      "sha256": "d3478903b0c316028cc70b1347d140cd65f6d47f7ac4244bd1f86fd04d37ec75"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-05.zip",
+      "first_id": 4006423264,
+      "first_timestamp_ms": 1783209600068,
+      "last_id": 4006883109,
+      "last_timestamp_ms": 1783295999112,
+      "raw_rows": 459846,
+      "sha256": "bc1344738232d339dc86b9ba8acd9e638cb8a9cac0e73c9f754703d38b8be0f7"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-06.zip",
+      "first_id": 4006883110,
+      "first_timestamp_ms": 1783296000125,
+      "last_id": 4007866948,
+      "last_timestamp_ms": 1783382399786,
+      "raw_rows": 983839,
+      "sha256": "a097cc5c1ebba38f3269d5f09f48e36b594f86fed70f043703c685ab723cf4fb"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-07.zip",
+      "first_id": 4007866949,
+      "first_timestamp_ms": 1783382400067,
+      "last_id": 4008758059,
+      "last_timestamp_ms": 1783468798659,
+      "raw_rows": 891111,
+      "sha256": "3a62f7af00dd891cd1e4b99b3a3acfd4f032fc5218c139631125d45e0e44ad05"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-08.zip",
+      "first_id": 4008758060,
+      "first_timestamp_ms": 1783468800076,
+      "last_id": 4009776411,
+      "last_timestamp_ms": 1783555199911,
+      "raw_rows": 1018352,
+      "sha256": "67fd2bc8186326b4b05a8a163d7727659f437c2dea60a83fa0dd121301312e58"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-09.zip",
+      "first_id": 4009776412,
+      "first_timestamp_ms": 1783555200281,
+      "last_id": 4010698247,
+      "last_timestamp_ms": 1783641599487,
+      "raw_rows": 921836,
+      "sha256": "0305df654e796be2ed01347ff3303ce2a45dc7f75a232585bb0264a5a4bc43bb"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-10.zip",
+      "first_id": 4010698248,
+      "first_timestamp_ms": 1783641600383,
+      "last_id": 4011563480,
+      "last_timestamp_ms": 1783727999823,
+      "raw_rows": 865233,
+      "sha256": "1d163cfac06c4af037fc3d5a605f6f9eba2c78c4be0a69fa4e761021a9e279bd"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-11.zip",
+      "first_id": 4011563481,
+      "first_timestamp_ms": 1783728000250,
+      "last_id": 4012017566,
+      "last_timestamp_ms": 1783814397873,
+      "raw_rows": 454086,
+      "sha256": "98ea4376d26d3117c774a4e413e73dc9e0261e645b885a99373aa4f4832287a1"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-12.zip",
+      "first_id": 4012017567,
+      "first_timestamp_ms": 1783814400127,
+      "last_id": 4012670661,
+      "last_timestamp_ms": 1783900797213,
+      "raw_rows": 653095,
+      "sha256": "1c32824201085c752f56c94a79341041da208c658afe3675f4d4739e71597ca5"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-13.zip",
+      "first_id": 4012670662,
+      "first_timestamp_ms": 1783900800136,
+      "last_id": 4013597906,
+      "last_timestamp_ms": 1783987199920,
+      "raw_rows": 927245,
+      "sha256": "637d8a97de24bd2941cc5278a05845b6975d7fb235c3dec97f684514ae463d1e"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-14.zip",
+      "first_id": 4013597907,
+      "first_timestamp_ms": 1783987200075,
+      "last_id": 4014446764,
+      "last_timestamp_ms": 1784073599154,
+      "raw_rows": 848858,
+      "sha256": "209d874a2ee552f6514708c0bb1f0b8703e474f171d4eff2a142835815831423"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-15.zip",
+      "first_id": 4014446765,
+      "first_timestamp_ms": 1784073600013,
+      "last_id": 4015186311,
+      "last_timestamp_ms": 1784159999698,
+      "raw_rows": 739547,
+      "sha256": "a069c5e8e6baea4105bd6c963c07b7eaaa02a8542f6b95565e11dd16763b8b62"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-16.zip",
+      "first_id": 4015186312,
+      "first_timestamp_ms": 1784160000154,
+      "last_id": 4015953757,
+      "last_timestamp_ms": 1784246399212,
+      "raw_rows": 767446,
+      "sha256": "f0b4c6232e1d67ca89bdcaf89e9e884eb3bec9c28b4bb7d52f3e40269090051c"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-17.zip",
+      "first_id": 4015953758,
+      "first_timestamp_ms": 1784246400085,
+      "last_id": 4016777451,
+      "last_timestamp_ms": 1784332799398,
+      "raw_rows": 823694,
+      "sha256": "922ec616f5127313ac320a0a5e71be34f5f91e260cac9f98edcf2deb60a00750"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-18.zip",
+      "first_id": 4016777452,
+      "first_timestamp_ms": 1784332800126,
+      "last_id": 4017125468,
+      "last_timestamp_ms": 1784419199384,
+      "raw_rows": 348017,
+      "sha256": "c366a68a0a53bf9141c6bf61873f0dfa718d2a393fb95e4e57d3f894278246c8"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-19.zip",
+      "first_id": 4017125469,
+      "first_timestamp_ms": 1784419200000,
+      "last_id": 4017553737,
+      "last_timestamp_ms": 1784505598123,
+      "raw_rows": 428269,
+      "sha256": "6be71b17d0412d713332f7d5b1ee1e2ba65e8990e2c72df364dc4fc1e7645803"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-20.zip",
+      "first_id": 4017553738,
+      "first_timestamp_ms": 1784505600137,
+      "last_id": 4018495219,
+      "last_timestamp_ms": 1784591999322,
+      "raw_rows": 941482,
+      "sha256": "be7923c324e02c26145747da8008c87bc95ab7bbc05f199180c15e6332df97ef"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-21.zip",
+      "first_id": 4018495220,
+      "first_timestamp_ms": 1784592000079,
+      "last_id": 4019380407,
+      "last_timestamp_ms": 1784678399872,
+      "raw_rows": 885188,
+      "sha256": "f89c47f9160922e013baaf51bbf96aa70759c1f357f91b4575569a441b5b6c6d"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-22.zip",
+      "first_id": 4019380408,
+      "first_timestamp_ms": 1784678400111,
+      "last_id": 4020681190,
+      "last_timestamp_ms": 1784764796342,
+      "raw_rows": 1300783,
+      "sha256": "93660c7614a50047872e5decff0a6842e31b74b6f149ad0f6adeedf14c2dfdd2"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-23.zip",
+      "first_id": 4020681191,
+      "first_timestamp_ms": 1784764800092,
+      "last_id": 4021347581,
+      "last_timestamp_ms": 1784851199863,
+      "raw_rows": 666391,
+      "sha256": "41bc12fd9a76230c4929cbf541e61c4d32a91c21aaa5db577556a6d22a50bf41"
+    },
+    {
+      "anomalies": [],
+      "file": "BTCUSDT-aggTrades-2026-07-24.zip",
+      "first_id": 4021347582,
+      "first_timestamp_ms": 1784851200009,
+      "last_id": 4022022975,
+      "last_timestamp_ms": 1784937598775,
+      "raw_rows": 675394,
+      "sha256": "7877000c4cf05da04d143ae927e515567bebc2465a45fc5dfe0a37b50d949c8f"
+    }
+  ],
+  "schema_version": 1
+}
